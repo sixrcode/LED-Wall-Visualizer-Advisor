@@ -7,10 +7,34 @@ export const metadata = {
 };
 
 const knowledgeItems = [
-  { title: "Color Contrast Essentials", description: "Learn how to make your visuals pop on LED screens with smart color choices." },
-  { title: "Optimal Camera Placement", description: "Diagrams and tips for positioning webcams for interactive visuals." },
-  { title: "LED Brightness & Safety", description: "Important notes on managing LED wall brightness for audience comfort and equipment longevity." },
-  { title: "Troubleshooting Common Issues", description: "Quick fixes for frequent visualizer problems." },
+  { 
+    title: "Vibrant & Balanced Colors for LED Walls", 
+    description: "Leverage bright, saturated colors for eye-catching content, ensuring high contrast for visibility." 
+  },
+  { 
+    title: "Camera Placement & Lighting for Interactive Visuals", 
+    description: "Position cameras thoughtfully and ensure good lighting contrast for clear silhouettes and interactive effects." 
+  },
+  { 
+    title: "Matching LED Wall Resolution & Aspect Ratio", 
+    description: "Design visuals at the LED wall’s native resolution or aspect ratio to avoid blurriness or stretching." 
+  },
+  { 
+    title: "Ensuring Smooth Motion & Transitions", 
+    description: "Aim for fluid animations and subtle beat-synced movements; avoid overly rapid changes." 
+  },
+  { 
+    title: "Rehearsal and Calibration Best Practices", 
+    description: "Conduct dry runs with the LED wall to tweak audio sensitivity, interactive thresholds, and visual cues." 
+  },
+  { 
+    title: "LED Brightness & Safety", 
+    description: "Manage LED wall brightness for audience comfort, visual clarity, and equipment longevity." 
+  },
+  { 
+    title: "Troubleshooting Common Visualizer Issues", 
+    description: "Quick fixes for frequent problems with visualizer software and hardware connections." 
+  },
 ];
 
 export default function KnowledgePage() {
